@@ -1,0 +1,23 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "test-electron": "cypress run",
+    "smoke-test": "cypress run --spec \"cypress/e2e/smokeTest/*.cy.js\"",
+    "test-electron-headed": "cypress run --headed",
+    "test-chrome": "cypress run --browser chrome",
+    "test-chrome-headed": "cypress run --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.7.1"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
